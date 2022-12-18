@@ -1,0 +1,45 @@
+.body{
+    background-color: rgb(0, 255, 242) ;
+}
+.title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Times New Roman', cursive;
+    font-size: 50px;
+}
+.list{
+    background: #566ffc;
+    line-height: 50px;
+}
+.list li{
+    list-style: none;
+    display:inline-block;
+    text-align:center;
+}
+.list li a{
+    display:inline-block;
+    width: 180px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    color: #ffffff;
+}
+.list li a:hover{
+    text-decoration: underline;
+    border: 1px solid;
+}
+
+.left{
+    display: inline-block;
+    width: 50%;
+}
+.right{
+    vertical-align: top;
+    display: inline-block;
+    width: calc(80%);
+    color: #0011ff;
+}
+footer{
+    text-align: center;
+    background:#7f5af8;
+    color: #ffffff;
+}
